@@ -1,0 +1,129 @@
+body {
+    font: 1rem Lato;
+    padding: 0;
+    margin: 0;
+    color: white;
+    background-color: #555;
+    background-image: url('project.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+.menu {
+    margin-top: 0px;
+    font-size: 1.2vw;
+    background-color: #191919;  
+    width: 100%;
+    top: 0;
+    text-align: center;
+    position: fixed;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 1rem 0;
+    overflow: hidden; 
+}
+
+.menu li {
+    display: inline;
+    text-transform: uppercase;
+    margin: 2rem;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 100% 0;
+}
+
+.menu a:hover {
+    background-color: gray;
+    text-decoration: none;
+}
+
+.thepage {
+    margin: 0;
+    /*padding: 5em;
+    background-color: rgb(0,0,0, .5);
+    height: 500vh;*/
+}
+
+#home {
+    margin: 0 0 5rem 0;
+    background-color: (5, 5, 5, 0.5);
+    padding: 5rem;
+}
+
+
+#home h1 {
+    font-size: 7rem;
+}
+
+#home p {
+    font-size: 2rem;
+}
+
+#projects {
+    margin-bottom: 10rem;
+}
+
+#projects h1 {
+    font-size: 4rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#projects img {
+    max-height: 10%;
+    max-width: 25%;
+}
+
+#projects p {
+    text-align: center;
+}
+
+#contact h1{
+    font-size: 4rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+form {
+    text-align: center;
+}
+
+input, textarea {
+    font-size: 1rem;
+    color: white;
+    width: 80%;
+    background-color: gray;
+    margin: 1em;
+    padding: 1em;
+}
+
+textarea {
+    height: 15rem;
+}
+
+::placeholder {
+    color: black;
+}
+
+form .submit {
+    background-color: #555;
+}
+
+form .submit:hover {
+    background-color: gray;
+}
+
+.footer {
+    background-color: #cc0000;
+    margin: 0;
+    padding: 0.5rem;
+
+}
