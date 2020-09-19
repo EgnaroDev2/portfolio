@@ -52,18 +52,18 @@ body {
     height: 500vh;*/
 }
 
-#home {
+#home, #experience {
     margin: 0 0 5rem 0;
     background-color: (5, 5, 5, 0.5);
     padding: 5rem;
 }
 
 
-#home h1 {
+#home, #experience h1 {
     font-size: 7rem;
 }
 
-#home p {
+#home, #experience p {
     font-size: 2rem;
 }
 
