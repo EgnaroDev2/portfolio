@@ -2,15 +2,14 @@ body {
     font: 1rem Lato;
     padding: 0;
     margin: 0;
-    color: white;
-    background-color: #555;
+    color: black;
+    background-color: #FFEE00;
     /*background-image: url('project.gif');*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 
 }
-
 
 .menu {
     margin-top: 0px;
@@ -35,13 +34,13 @@ body {
 }
 
 .menu a {
-    color: white;
     text-decoration: none;
     padding: 100% 0;
+    color: white;
 }
 
 .menu a:hover {
-    background-color: gray;
+    background-color: grey;
     text-decoration: none;
 }
 
@@ -54,17 +53,23 @@ body {
 
 #home, #experience {
     margin: 0 0 0 0;
-    background-color: (5, 5, 5, 0.5);
     padding: 5rem;
 }
 
-#experience div {
-    margin-top: -5rem;
+#home h1 {
+    font-size: 5rem;
 }
 
+#home h2 {
+    font-size: 3rem;
+}
 
-#home, #experience h1 {
-    font-size: 4rem;
+#home p {
+    font-size: 2rem;
+}
+
+#home, #experience, #projects {
+    border-bottom: 1px solid black;
 }
 
 /*#home, #experience p {
@@ -73,6 +78,7 @@ body {
 
 #experience {
   text-align: center;
+  margin-top: -5rem;
 }
 
 #projects {
@@ -86,12 +92,23 @@ body {
 }
 
 #projects img {
-    max-height: 10%;
-    max-width: 25%;
+    height: 10%;
+    width: 25%;
+    border: 5px solid grey;
+}
+
+#projects img:hover {
+    opacity: 0.8;
 }
 
 #projects p {
     text-align: center;
+}
+
+#experience h1 {
+    font-size: 4rem;
+    text-align: center;
+    text-decoration: underline;
 }
 
 #contact h1{
@@ -100,13 +117,16 @@ body {
     text-decoration: underline;
 }
 
+#contact {
+    margin-top: -5rem;
+}
+
 form {
     text-align: center;
 }
 
 input, textarea {
     font-size: 1rem;
-    color: white;
     width: 80%;
     background-color: gray;
     margin: 1em;
@@ -118,7 +138,7 @@ textarea {
 }
 
 ::placeholder {
-    color: black;
+    color: white;
 }
 
 form .submit {
