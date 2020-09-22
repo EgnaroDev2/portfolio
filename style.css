@@ -58,6 +58,10 @@ body {
     padding: 5rem;
 }
 
+#experience div {
+    margin-top: -5rem;
+}
+
 
 #home, #experience h1 {
     font-size: 7rem;
@@ -84,11 +88,6 @@ body {
 
 #projects p {
     text-align: center;
-}
-
-#experience img {
-    max-height: 5%;
-    max-width: 15%;
 }
 
 #contact h1{
