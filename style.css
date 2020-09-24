@@ -3,155 +3,160 @@ body {
     padding: 0;
     margin: 0;
     color: black;
-    background-color: #FFEE00;
+    background-color: antiquewhite;
     /*background-image: url('project.gif');*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-
-}
-
-.menu {
+  }
+  
+  .menu {
     margin-top: 0px;
     font-size: 1.2vw;
-    background-color: #191919;  
+    background-color: #191919;
     width: 100%;
     top: 0;
     text-align: center;
     position: fixed;
-}
-
-.menu ul {
+  }
+  
+  .menu ul {
     margin: 0;
     padding: 1rem 0;
-    overflow: hidden; 
-}
-
-.menu li {
+    overflow: hidden;
+    border-right: 1px solid white;
+  }
+  
+  .menu li {
     display: inline;
     text-transform: uppercase;
     margin: 2rem;
-}
-
-.menu a {
+  }
+  
+  .menu a {
     text-decoration: none;
     padding: 100% 0;
     color: white;
-}
-
-.menu a:hover {
+  }
+  
+  .menu a:hover {
     background-color: grey;
     text-decoration: none;
-}
-
-.thepage {
+  }
+  
+  .thepage {
     margin: 0;
     /*padding: 5em;
-    background-color: rgb(0,0,0, .5);
-    height: 500vh;*/
-}
-
-#home, #experience {
+      background-color: rgb(0,0,0, .5);
+      height: 500vh;*/
+  }
+  
+  #home, #experience {
     margin: 0 0 0 0;
     padding: 5rem;
-}
-
-#home h1 {
+    border-bottom: 1px solid white;
+  }
+  
+  #home h1 {
     font-size: 5rem;
-}
-
-#home h2 {
+  }
+  
+  #home h2 {
     font-size: 3rem;
-}
-
-#home p {
+  }
+  
+  #home p {
     font-size: 2rem;
-}
+  }
 
-#home, #experience, #projects {
-    border-bottom: 1px solid black;
-}
-
-/*#home, #experience p {
-    font-size: 2rem;
-}*/
-
-#experience {
-  text-align: center;
-  margin-top: -5rem;
-}
-
-#projects {
-    margin-bottom: 10rem;
-}
-
-#projects h1 {
-    font-size: 4rem;
+  #home a {
+      color: burlywood;
+  }
+  
+  #experience {
     text-align: center;
-    text-decoration: underline;
-}
-
-#projects img {
-    height: 10%;
-    width: 25%;
-    border: 5px solid grey;
-}
-
-#projects img:hover {
-    opacity: 0.8;
-}
-
-#projects p {
-    text-align: center;
-}
-
-#experience h1 {
-    font-size: 4rem;
-    text-align: center;
-    text-decoration: underline;
-}
-
-#contact h1{
-    font-size: 4rem;
-    text-align: center;
-    text-decoration: underline;
-}
-
-#contact {
     margin-top: -5rem;
-}
-
-form {
+  }
+  
+  #projects {
+    padding-bottom: 5rem;
+  }
+  
+  #projects h1 {
+    font-size: 4rem;
     text-align: center;
-}
+    text-decoration: underline;
+  }
+  
+  #projects img {
+    height: 250px;
+    width: 400px;
+    max-height: 15%;
+    max-width: 25%;
+    border: 5px solid grey;
+  }
+  
+  #projects img:hover {
+    opacity: 0.8;
+  }
+  
+  #projects p {
+    text-align: center;
+  }
+  
+  #experience h1 {
+    font-size: 4rem;
+    text-align: center;
+    text-decoration: underline;
+  }
 
-input, textarea {
+  #experience img {
+      height: 150px;
+      width: auto;
+      max-width: 20%;
+  }
+  
+  #contact h1 {
+    font-size: 4rem;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  #contact {
+    margin-top: -5rem;
+  }
+  
+  form {
+    text-align: center;
+  }
+  
+  input,
+  textarea {
     font-size: 1rem;
     width: 80%;
     background-color: gray;
     margin: 1em;
     padding: 1em;
-}
-
-textarea {
+  }
+  
+  textarea {
     height: 15rem;
-}
-
-::placeholder {
+  }
+  
+  ::placeholder {
     color: white;
-}
-
-form .submit {
+  }
+  
+  form .submit {
     background-color: #555;
-}
-
-form .submit:hover {
+  }
+  
+  form .submit:hover {
     background-color: gray;
-}
-
-.footer {
+  }
+  
+  .footer {
     background-color: #cc0000;
     margin: 0;
     padding: 0.5rem;
-
-}
+  }
