@@ -8,9 +8,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    
-    position: fixed;
-
 }
 
 .menu {
@@ -155,5 +152,5 @@ form .submit:hover {
     background-color: #cc0000;
     margin: 0;
     padding: 0.5rem;
-
+    position: fixed;
 }
